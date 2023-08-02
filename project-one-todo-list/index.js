@@ -15,6 +15,7 @@ button.addEventListener("click",(eo) => {
     </div>
 </div>`
 container.innerHTML +=task;
+input.value=" "
 })
 
 // remove a task 
@@ -23,10 +24,8 @@ container.addEventListener("click", (eo) => {
    if (eo.target.className =="icon-bin icon") {
      eo.target.parentElement.parentElement.remove();
    } else if(eo.target.className=="icon-sad2 icon"){
-     eo.target.classList.remove("icon-sad2")
-     eo.target.classList.add("icon-heart")
-     eo.target.parentElement.p.classList.add("line")
-   }else{
-
+    eo.target.classList.add("icon-heart")
+    eo.target.classList.remove("icon-sad2")
+     
    }
 })
