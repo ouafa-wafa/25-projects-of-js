@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+h1{
+  
+    text-align: center;
+    margin-top: 30px;
+}
+#body{
+    background-color: aqua;
+}
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 220px;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
