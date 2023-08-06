@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    color: rgb(43, 43, 185);
+    text-transform: capitalize;
+    font-size: 45px;
+}
+#blockquote{
+    animation: move 2s 1;
+    transition: all .4;
+}
+@keyframes move{
+    0% {transform: translate(-100vw,0);}
+    100%{transform: translate(0,0);}
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+#blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid royalblue ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+#blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color: royalblue;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+#blockquote::after{
+  content: '';
+}
+
+#blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+
+}
+.button{
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: royalblue;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: rgb(48, 92, 223);
+}
