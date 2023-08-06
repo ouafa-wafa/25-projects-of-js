@@ -22,7 +22,7 @@ button.addEventListener("click",(eo) => {
      encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,`<iframe id="iframe" width="560" height="315" src="https://www.youtube.com/embed/Fjty17NF0u4" 
      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
      encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`]
-     parentiframe.innerHTML=arrayvideo[Math.round(Math.random()*arrayvideo.length-1)];
+     parentiframe.innerHTML=arrayvideo[Math.round(Math.floor()*arrayvideo.length)];
      /* let i=0 above the event 
      inside the event we write : parentiframe.innerHTML=arrayvideo[i]
      i++
