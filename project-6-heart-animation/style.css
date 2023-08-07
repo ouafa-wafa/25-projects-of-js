@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#button{
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(40vh);
+    cursor: pointer;
+    color: cadetblue;
+}
+#button:hover{
+    background-color: aquamarine;
+}
+.heart{
+    position: fixed;
+    font-size: 40px;
+    animation: fall 3s 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+   animation-duration: 1s;
+}
+@keyframes fall{
+    0% {transform: translateY(-50px);}
+    100% {transform: translateY(650px);}
+}
