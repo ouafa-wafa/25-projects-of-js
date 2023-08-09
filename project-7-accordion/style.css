@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    color: chocolate;
+}
+.q{
+    margin: 10px auto;
+    width: 80%;
+   
+}
+.font{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*put the plus and the h1 in the same line*/
+    background-color: rgb(216, 135, 77);
+    height: 46px;
+    padding: 16px;
+}
+.font .plus{
+    font-size: 30px;
+    cursor: pointer;
+}
+.plus:hover{
+    cursor: pointer;
+}
+.content{
+    padding: 18px;
+    background-color: rgba(236, 167, 118, 0.2);
+    opacity: 0;
+    height: 0px;
+    transition: all .4s;
+}
+/*for js*/
+.active{
+    opacity: 1;
+    height: auto;
+}
