@@ -12,9 +12,9 @@ project
        -8 digital clock
        -9 slider
        -10 toggle tabs
-       -11 validation form
+       -11 counter
        -12 slider our reviews loop
-       -13 counter
+       -13 validation form
        -14 countdown timer 
        -15 stopwatch 
        -16 pomodoro timer

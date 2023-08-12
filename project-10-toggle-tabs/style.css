@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title h1{
+    text-align: center;
+    margin: 30px auto 20px;
+}
+.title p{
+    text-align: center;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.719);
+    margin-bottom: 45px;
+}
