@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,34 @@
     <script defer src="index.js"></script>
     <title>toggle tabs</title>
 </head>
+
 <body>
-    <div class="title">
-        <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos </p>
+    <div class="toggle-tabs">
+        <h1 class="title">toggle tabs</h1>
+        <ui class="tabs">
+            <li class="active btn" data-cont=".one">Tab1</li>
+            <li class="btn" data-cont=".two">Tab2</li>
+            <li class="btn" data-cont=".three">Tab3</li>
+        </ui>
+        <div id="content" class="content">
+            <div class="one">
+                <h1>Content 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In pariatur ratione labore magnam nesciunt
+                    eos error architecto, facilis obcaecati ab sed ipsam doloremque, ducimus dolor, unde sapiente!
+                    Similique, corrupti repudiandae.</p>
+            </div>
+            <div class="two">
+                <h1>Content 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In pariatur ratione labore magnam nesciunt</p>
+            </div>
+            <div class="three">
+                <h1>Content 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In pariatur ratione labore magnam nesciunt
+                    eos error architecto, facilis obcaecati ab sed ipsam doloremque, ducimus dolor, unde sapiente!
+                    Similique, corrupti repudiandae.</p>
+            </div>
+        </div>
     </div>
-    <div class="container">
-        <div class="image">
-            <img src="image/image.jpg">
-        </div>
-        <div class="buttons">
-            <button class="btn">History</button>
-            <button class="btn">Vision</button>
-            <button class="btn">Goals</button>
-        </div>
-</div>
 </body>
+
 </html>

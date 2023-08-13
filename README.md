@@ -13,7 +13,7 @@ project
        -9 slider
        -10 toggle tabs
        -11 counter
-       -12 slider our reviews loop
+       -12 slider loop infinity
        -13 validation form
        -14 countdown timer 
        -15 stopwatch 
