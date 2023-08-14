@@ -3,7 +3,7 @@ buttons.forEach(item => {
     item.addEventListener("click",(eo) => {
         //bring the class content of our para
        const content=eo.target.parentElement.parentElement.querySelector(".content");
-       //change the opacity and the hight =>we would like to show the content
+       //change the opacity and the height =>we would like to show the content
        content.classList.toggle("active")
        //toggle between the + and -
        item.classList.toggle("hide-plus")
