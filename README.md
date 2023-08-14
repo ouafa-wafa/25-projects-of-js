@@ -13,14 +13,14 @@ project
        -9 slider
        -10 toggle tabs
        -11 counter
-       -12 slider loop infinity
-       -13 validation form
-       -14 countdown timer 
-       -15 stopwatch 
-       -16 pomodoro timer
-       -17 tip calculator
-       -18 age calculator 
-       -19 multiplication app
+       -12 countdown timer 
+       -13 stopwatch 
+       -14 pomodoro timer
+       -15 validation form
+       -16 tip calculator
+       -17 age calculator 
+       -18 multiplication app
+       -19 swiper
        -20 video project in the background
        -21 responsive navbar
        -22 sticky navbar
