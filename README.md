@@ -1,7 +1,7 @@
 # projects of js
  50 projects html css and js
 
-project
+project:
        -1 to do list
        -2 change background
        -3 autowriting
@@ -40,7 +40,7 @@ project
        -36 lorem ipsum generat para
        -37 password generator
        -38 email generator
-       -39 barcode generator
+       -39 QR code generator
        -40 image search app
        -41 dice roll simulator
        -42 rock paper scissors game
