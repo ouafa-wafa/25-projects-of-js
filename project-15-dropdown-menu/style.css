@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+nav{
+    background-color: rgb(233, 23, 23);
+}
+#menu{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    padding: 10px;
+}
+#menu li{
+    margin: 10px;
+}
+ul li {
+    list-style-type: none;
+}
+li a{
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+li a:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+#dropmenu{
+    display: none;
+}

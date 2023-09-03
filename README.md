@@ -15,40 +15,40 @@ project:
        -11 counter
        -12 countdown timer 
        -13 stopwatch 
-       -14 pomodoro timer
-       -15 validation form
-       -16 tip calculator
-       -17 age calculator 
-       -18 multiplication app
-       -19 swiper
-       -20 video project in the background
-       -21 responsive navbar
-       -22 sticky navbar
-       -23 real time character counter
-       -24 simple calculator
-       -25 our menu select
-       -26 heart trail animation
-       -27 random color generator
-       -28 video trailer popup
-       -29 blurred background popup window
-       -30 game x o
-       -31 random photos
-       -32 scroll to top
-       -33 shopping cart
-       -34 drum kits
-       -35 button ripple effect
-       -36 lorem ipsum generat para
-       -37 password generator
-       -38 email generator
-       -39 QR code generator
-       -40 image search app
-       -41 dice roll simulator
-       -42 rock paper scissors game
-       -43 weather app
-       -44 notes crud 
-       -45 quiz app
-       -46 recip app
-       -47 movie app
-       -48 drawing app
-       -49 build full website booking
-       -50 build full ecommerce web
+       -14 navagiation 
+       -15 dropdwown menu
+       -16 
+       -17 
+       -18 
+       -19 
+       -20 
+       -21 
+       -22 
+       -23 
+       -24 
+       -25 
+       -26 
+       -27 
+       -28 
+       -29 
+       -30 
+       -31 
+       -32 
+       -33 
+       -34 
+       -35 
+       -36 
+       -37 
+       -38 
+       -39 
+       -40 
+       -41 
+       -42 
+       -43 
+       -44  
+       -45 
+       -46 
+       -47 
+       -48 
+       -49 
+       -50 
