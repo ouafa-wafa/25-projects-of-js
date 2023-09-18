@@ -34,6 +34,12 @@ li a:hover{
     color: white;
     transition: .5s;
 }
-#dropmenu{
+.dropmenu{
+    position: absolute; /*make the sbu menu free*/
+    background-color: beige;
+    margin-top: 10px;
     display: none;
+}
+.active{
+    display: block;
 }
