@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(243, 132, 151);
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.836);
+    color: rgb(243, 132, 151);
+    width: 30vw;
+    height: auto;
+    transform: translateY(150px);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    margin-bottom: 20px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 20vw;
+    height: 4vh;
+    border: none;
+}
+button{
+    border: none;
+    background-color: rgb(243, 132, 151);
+    padding: 5px 10px;
+    font-size: 19px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}

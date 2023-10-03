@@ -5,15 +5,19 @@ let submenu=document.getElementsByClassName("dropmenu");
 Array.from(submenu)
 
     
-    ourservices.addEventListener("click",(eo) => {
+    ourservices.addEventListener("mouseover",(eo) => {
         eo.preventDefault()
         submenu[0].classList.toggle("active")
     })
-    ourteam.addEventListener("click",(eo) => {
+    ourservices.addEventListener("mouseout",(eo) => {
+        eo.preventDefault()
+        submenu[0].classList.toggle("active")
+    })
+    ourteam.addEventListener("mouseover",(eo) => {
         eo.preventDefault()
         submenu[1].classList.toggle("active")
     })
-    ourproject.addEventListener("click",(eo) => {
+    ourproject.addEventListener("mouseover",(eo) => {
         eo.preventDefault()
         submenu[2].classList.toggle("active")
     })
