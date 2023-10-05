@@ -17,9 +17,9 @@ project:
        -13 stopwatch 
        -14 navagiation 
        -15 dropdwown menu
-       -16 
-       -17 
-       -18 
+       -16 love calculator
+       -17 BMI calculator
+       -18 loan calculator
        -19 
        -20 
        -21 
