@@ -20,21 +20,21 @@ project:
        -16 love calculator
        -17 BMI calculator
        -18 loan calculator
-       -19 
-       -20 
-       -21 
-       -22 
-       -23 
-       -24 
-       -25 
-       -26 
-       -27 
-       -28 
-       -29 
-       -30 
-       -31 
-       -32 
-       -33 
+       -19 palindrom checker
+       -20 rgb color generator
+       -21 tip calculator
+       -22 get unicode
+       -23 age calculator
+       -24 vowel counter
+       -25 poll system app
+       -26 random password
+       -27 cash calculator
+       -28 text animation
+       -29 mouse wheel zoom-in-out
+       -30 note taking app
+       -31 dictionary app
+       -32 paragraph generator
+       -33 expense tracker
        -34 
        -35 
        -36 
