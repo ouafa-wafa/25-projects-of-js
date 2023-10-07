@@ -47,3 +47,15 @@ button:hover{
 #result{
     font-size: 18px;
 }
+.emoji{
+    position: fixed;
+    font-size: 30px;
+    animation: fall 3s 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+@keyframes fall{
+    0% {transform: translateY(-50px);}
+    100% {transform: translateY(750px);}
+}

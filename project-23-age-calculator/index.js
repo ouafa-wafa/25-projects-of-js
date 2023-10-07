@@ -10,8 +10,8 @@ btn.addEventListener("click",(eo) => {
          
         //user bithrady
         const userbirth=new Date(datebirth);
-        let d1=userbirth.getDay();
-        let m1=userbirth.getMonth();
+        let d1=userbirth.getDay()+12;
+        let m1=userbirth.getMonth()+1;
         let y1=userbirth.getFullYear();
         console.log(`${d1},${m1},${y1}`)
 
