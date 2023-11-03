@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="index.js"></script>
+    <title>random password</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+    <div class="inputbox"> 
+        <input type="text" class="passbox" id="passbox" disabled>
+        <span><i class="fa-solid fa-copy"></i></span>
+    </div>
+    <div class="passIndicator">
+         <input type="range" min="1" max="30" value="6" step="1" id="inputslider">
+    </div>
+        <h3>Password Length</h3>
+        <div class="option">
+            <label for="option1">Include Lowercase Letters(a-z)</label>
+            <input type="checkbox" id="option1" name="random" value="option1">
+          </div>
+          <div class="option">
+            <label for="option2">Include Upercase Letters(A-Z)</label>
+            <input type="checkbox" id="option2" name="random" value="option2">
+          </div>
+          <div class="option">
+            <label for="option3">Include Number (0-9)</label>
+            <input type="checkbox" id="option3" name="random" value="option3">
+          </div>
+          <div class="option">
+            <label for="option4">Include Symboles(@-*)</label>
+            <input type="checkbox" id="option4" name="random" value="option4">
+          </div>
+          <button id="btn">Generat Password</button>
+    </div>
+</body>
+</html>

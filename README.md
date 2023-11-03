@@ -26,11 +26,11 @@ project:
        -22 get unicode
        -23 age calculator
        -24 vowel counter
-       -25 poll system app
-       -26 random password
-       -27 cash calculator
-       -28 text animation
-       -29 mouse wheel zoom-in-out
+       -25 text animation
+       -26 mouse wheel zoom-in-out
+       -27 poll system app 
+       -28 random password 
+       -29 cash calculator 
        -30 note taking app
        -31 dictionary app
        -32 paragraph generator
